@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="estilos.css"></a>
+    <title>UFOMED</title>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <a class="logo">
+         <img src="UFOMED.jpg" alt=" logo de la compañia">
+<h2 class="nombre-UFOMED"></h2></a>
+
+</body>
+<body>
+<header>
+
+  <div class=" content">
+    
+<div class="menu container">
+<a href="index.html" class="img"></a>  
+<input type="checkbox" id="menu"/>
+<label for="menu">
+<img src="iconos.jpg" class="menu-icono" alt="">
+  </label>
+ <nav class="navbar">
+ <ul>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="Aula.html">Aula virtual</a></li>
+<li><a href="Cita.html">Citas</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+</body>
+
+<style>
+    
+.body {
+  background-color: aquamarine;
+  color: aqua;
+}
+
+    *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  min-height: 80px;
+
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+  color: blue;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+h1 {
+  margin: 80px 0 0 350px;
+}
+
+@media(max-width:991px) {
+
+  .content {
+    min-height: 70px;
+  }
+
+  .menu {
+    top: 0;
+    padding: 20px;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(127, 255, 232);
+    display: none;
+  }
+
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+}
+
+</style>
+
+<body>
+<style>
+    
+.hola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .SONOGRAFO { 
+        width: 500px;
+       height: 400px;
+    }
+    
+    .txt{
+     margin-right: 10px;
+    }
+
+    </style>
+    <div class="hola">
+<img src="IMAGEN  DE SONOGRAFO 1.jpeg" class="SONOGRAFO" alt="">
+        <div class="txt">
+        <div class="diplo"> 
+<h1>Programa de Diplomados:</h1>
+<h1>*Diplomado de Sonografia general</h1>
+<h1> *Diplomado doppler Color </h1>
+<h1>*Diplomado Musculo Esquelético</h1>
+<h1>*Diplomado Materno-fetal</h1>
+        </div>
+<style>
+.diplo{
+background: #fff;
+}
+
+h1 {
+  background: rgb(48, 173, 173);
+  background: radial-gradient(#eff1ff,rgb(74, 148, 161));
+  font-family: system-ui;
+  font-size: 3rem;
+
+  -webkit-text-fill-color: 
+  transparent;
+  -webkit-background-clip: text;
+}
+
+</style>
+</div>
+</div>
+</body>
+</html>
